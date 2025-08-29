@@ -173,7 +173,7 @@ export default function CartPage() {
                               key={key}
                               className="text-xs bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 px-2 py-1 rounded"
                             >
-                              {key}: {value}
+                              {key}: {value as string}
                             </span>
                           ))}
                         </div>
